@@ -36,7 +36,7 @@ public class Program
         {
             options.AddPolicy("CorsPolicy", policyBuilder =>
                 policyBuilder
-                    .WithOrigins("http://localhost:59133", "http://localhost:59679")
+                    .WithOrigins("https://presentations-software-frontend.vercel.app")
                     .AllowAnyMethod()
                     .AllowAnyHeader()
                     .AllowCredentials());
